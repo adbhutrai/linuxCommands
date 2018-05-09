@@ -10,3 +10,5 @@ important linux commands
 
 # No of CPU
   lscpu 
+# Changing Your Password
+passwd
