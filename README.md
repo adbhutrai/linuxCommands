@@ -3,7 +3,7 @@ important linux commands
 
 # check CentOS version
   hostnamectl 
-#or 
+# or 
   rpm --query centos-release
 # or
  cat /etc/centos-release
