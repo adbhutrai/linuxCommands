@@ -19,3 +19,6 @@ DNS1=8.8.8.8
 DNS2=8.8.4.4
 # Note this was set to no
 ONBOOT=yes
+
+# Change hostname
+hostnamectl set-hostname your-new-hostname
