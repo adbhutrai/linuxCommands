@@ -1,4 +1,4 @@
-# Run following command to run minishift in Wimdows Virtual Box after downloading from 
+# Run following command to run minishift in Windows Virtual Box after downloading from 
 # https://github.com/minishift/minishift/releases/latest and extracting in the C:\minishift directory.
 # Then add this folder to PATH environment variable. Then use following command to set up VirtualBox as default driver
 minishift config set vm-driver virtualbox
