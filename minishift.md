@@ -7,3 +7,9 @@ minishift start
 
 # Sometimes it might not run so you have to use following command and then re-run 'minishift start' again
 minishift delete --clear-cache
+
+# You are logged in as:
+oc login -u developer:admin
+
+# To login as administrator:
+   oc login -u system:admin
