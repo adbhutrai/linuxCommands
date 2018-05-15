@@ -9,7 +9,10 @@ minishift start
 minishift delete --clear-cache
 
 # You are logged in as:
+```
 oc login -u developer:admin
-
+```
 # To login as administrator:
+```
    oc login -u system:admin
+```
