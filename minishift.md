@@ -17,4 +17,5 @@ oc login -u developer:admin
    oc login -u system:admin
 ```
 https://github.com/OpenShiftDemos/openshift-cd-demo
+
 https://access.redhat.com/documentation/en-us/red_hat_container_development_kit/3.4/html-single/getting_started_guide/index/index.html#persistent-configuration
