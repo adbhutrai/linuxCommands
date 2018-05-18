@@ -1,6 +1,8 @@
 # Run following command to run minishift in Windows Virtual Box after downloading from 
 # https://github.com/minishift/minishift/releases/latest and extracting in the C:\minishift directory.
 # Then add this folder to PATH environment variable. Then use following command to set up VirtualBox as default driver
+https://docs.openshift.org/latest/minishift/using/basic-usage.html
+
 ```
 minishift config set vm-driver virtualbox
 minishift config set cpus 2
