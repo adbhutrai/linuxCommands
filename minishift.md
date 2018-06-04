@@ -7,7 +7,7 @@ minishift config set vm-driver virtualbox
 minishift config set cpus 2
 minishift config set disk-size "40GB"
 minishift config set memory "8GB"
-minishift start --iso-url centos
+minishift start --iso-url centos --show-libmachine-logs
 
 ```
 > Then run following command to run minishift
