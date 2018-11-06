@@ -1,3 +1,10 @@
+To setup minishift on windows using gitbash directory
+
+Create environment variable MINISHIFT_HOME with directory of your minishift.
+Add this environment varibale to Users Path variable as below:
+
+Path = %Path%;%MINISHIFT_HOME%\;
+
 > Run following command to run minishift in Windows Virtual Box after downloading from https://github.com/minishift/minishift/releases/latest and extracting in the C:\minishift directory.
 > Then add this folder to PATH environment variable. Then use following command to set up VirtualBox as default driver
 https://docs.openshift.org/latest/minishift/using/basic-usage.html
