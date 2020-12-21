@@ -18,6 +18,8 @@ minishift config set image-caching true
 minishift addon enable admin-user
 minishift addon enable anyuid
 minishift config set openshift-version v3.11.0
+minishift start --hyperv-virtual-switch
+
 
 ```
 minishift config set vm-driver virtualbox
