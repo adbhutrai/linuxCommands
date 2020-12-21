@@ -12,7 +12,7 @@ https://docs.openshift.org/latest/minishift/using/basic-usage.html
 minishift profile set tutorial
 minishift config set memory 8GB
 minishift config set cpus 3
-// minishift config set vm-driver virtualbox
+> minishift config set vm-driver virtualbox
 minishift config set hyperv-virtual-switch "External (Wireless)"
 minishift config set image-caching true
 minishift addon enable admin-user
