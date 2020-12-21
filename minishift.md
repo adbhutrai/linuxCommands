@@ -9,6 +9,16 @@ Path = %Path%;%MINISHIFT_HOME%\;
 > Then add this folder to PATH environment variable. Then use following command to set up VirtualBox as default driver
 https://docs.openshift.org/latest/minishift/using/basic-usage.html
 
+minishift profile set tutorial
+minishift config set memory 8GB
+minishift config set cpus 3
+// minishift config set vm-driver virtualbox
+minishift config set hyperv-virtual-switch "External (Wireless)"
+minishift config set image-caching true
+minishift addon enable admin-user
+minishift addon enable anyuid
+minishift config set openshift-version v3.11.0
+
 ```
 minishift config set vm-driver virtualbox
 minishift config set cpus 2
